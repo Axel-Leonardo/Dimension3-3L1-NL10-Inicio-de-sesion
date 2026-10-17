@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de sesión</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div class="caja">
+    <h1>Inicio de sesión</h1>
+
+    <form id="formulario">
+
+      <label for="usuario">Usuario</label>
+      <input type="text" id="usuario" placeholder="Escribe tu usuario">
+
+      <label for="contrasena">Contraseña</label>
+      <input type="password" id="contrasena" placeholder="Escribe tu contraseña">
+
+      <p id="mensaje"></p>
+
+      <button type="submit">Iniciar sesión</button>
+      <button type="button" id="botonLimpiar">Limpiar</button>
+    </form>
+
+    <div id="bienvenida">
+      <h2 id="textoBienvenida"></h2>
+      <button type="button" id="botonSalir">Cerrar sesión</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
